@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #C6FFDD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .dropZone {
+            width: 614px;
+            height: 614px;
+            border: 1px ridge gray;
+            margin-left: 10px;
+            background: #40E0D0;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+            .item {
+                display: flex;
+                flex-wrap: wrap;
+
+                img {
+                    width: 204px;
+                    height: 204px;
+                    border: 1px solid rgb(3, 6, 7);
+                }
+            }
+        }
+    }
+}
